@@ -1,0 +1,1 @@
+Due to the Map Switcher Widget updating the map view, default Experience Builder Widgets that interact with the Map View don't work, so we had to customize them. Edit Feature widget is one of such widget, code is pretty straightforward.
