@@ -19,5 +19,11 @@ Map Label = Label for each map (so you don't just see content IDs)
               "contentID" : "Map Label",
               "contentID" : "Map Label"}
                                     
-
 }
+
+
+
+
+
+Also note, due to an issue with Experience Builder Developer Edition and some ESRI JavaScript SDK Packages, you need to make sure to add the following to the manifest.json file for your widget:
+"dependency":["jimu-arcgis"]
